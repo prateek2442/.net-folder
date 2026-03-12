@@ -1,0 +1,8 @@
+C:\Users\Pragati\Desktop\.net folder\project9\bin\Debug\project9.exe.config
+C:\Users\Pragati\Desktop\.net folder\project9\bin\Debug\project9.exe
+C:\Users\Pragati\Desktop\.net folder\project9\bin\Debug\project9.pdb
+C:\Users\Pragati\Desktop\.net folder\project9\obj\Debug\project9.csproj.AssemblyReference.cache
+C:\Users\Pragati\Desktop\.net folder\project9\obj\Debug\project9.csproj.CoreCompileInputs.cache
+C:\Users\Pragati\Desktop\.net folder\project9\obj\Debug\project9.exe
+C:\Users\Pragati\Desktop\.net folder\project9\obj\Debug\project9.pdb
+C:\Users\Pragati\Desktop\.net folder\project9\obj\Debug\project9.exe.config

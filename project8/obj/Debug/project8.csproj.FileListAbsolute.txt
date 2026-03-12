@@ -1,0 +1,8 @@
+C:\Users\Pragati\Desktop\.net folder\project8\bin\Debug\project8.exe.config
+C:\Users\Pragati\Desktop\.net folder\project8\bin\Debug\project8.exe
+C:\Users\Pragati\Desktop\.net folder\project8\bin\Debug\project8.pdb
+C:\Users\Pragati\Desktop\.net folder\project8\obj\Debug\project8.csproj.AssemblyReference.cache
+C:\Users\Pragati\Desktop\.net folder\project8\obj\Debug\project8.csproj.CoreCompileInputs.cache
+C:\Users\Pragati\Desktop\.net folder\project8\obj\Debug\project8.exe
+C:\Users\Pragati\Desktop\.net folder\project8\obj\Debug\project8.pdb
+C:\Users\Pragati\Desktop\.net folder\project8\obj\Debug\project8.exe.config

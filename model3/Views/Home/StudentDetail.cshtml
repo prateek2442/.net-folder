@@ -1,0 +1,26 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>StudentDetail</title>
+</head>
+<body>
+    <div>
+        <form action="/Home/StudentDetail" method="post">
+            <input type="text" placeholder="enter your ID" name="Id" /> <br />
+            <input type="text" placeholder="enter your name" name="Name" /> <br />
+            <input type="number" placeholder="enter you age" name="Age" /> <br />
+            <input type="number" placeholder="enter your Rollno" name="Rollno" /><br />
+            <input type="email" placeholder="example@gmail.com" name="Email" /><br />
+            <input type="submit" value="submit" />
+        </form>
+        @ViewBag.Student
+    </div>
+</body>
+</html>

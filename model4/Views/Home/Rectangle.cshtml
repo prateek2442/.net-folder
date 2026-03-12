@@ -1,0 +1,23 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Rectangle</title>
+</head>
+<body>
+    <div> 
+        <form action="/Home/Rectangle"  method="post">
+            <input type="number" placeholder="enter the 1st number" name="Length" /><br />
+            <input type="number" placeholder="enter the 2nd number" name="Breadth" /><br />
+            <input type="submit" value="submit"/>
+        </form>
+        @ViewBag.result
+    </div>
+</body>
+</html>

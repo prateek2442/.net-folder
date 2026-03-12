@@ -1,0 +1,8 @@
+C:\Users\Pragati\Desktop\.net folder\project3\bin\Debug\project3.exe.config
+C:\Users\Pragati\Desktop\.net folder\project3\bin\Debug\project3.exe
+C:\Users\Pragati\Desktop\.net folder\project3\bin\Debug\project3.pdb
+C:\Users\Pragati\Desktop\.net folder\project3\obj\Debug\project3.csproj.AssemblyReference.cache
+C:\Users\Pragati\Desktop\.net folder\project3\obj\Debug\project3.csproj.CoreCompileInputs.cache
+C:\Users\Pragati\Desktop\.net folder\project3\obj\Debug\project3.exe
+C:\Users\Pragati\Desktop\.net folder\project3\obj\Debug\project3.pdb
+C:\Users\Pragati\Desktop\.net folder\project3\obj\Debug\project3.exe.config

@@ -1,0 +1,8 @@
+C:\Users\Pragati\Desktop\.net folder\task11\bin\Debug\task11.exe.config
+C:\Users\Pragati\Desktop\.net folder\task11\bin\Debug\task11.exe
+C:\Users\Pragati\Desktop\.net folder\task11\bin\Debug\task11.pdb
+C:\Users\Pragati\Desktop\.net folder\task11\obj\Debug\task11.csproj.AssemblyReference.cache
+C:\Users\Pragati\Desktop\.net folder\task11\obj\Debug\task11.csproj.CoreCompileInputs.cache
+C:\Users\Pragati\Desktop\.net folder\task11\obj\Debug\task11.exe
+C:\Users\Pragati\Desktop\.net folder\task11\obj\Debug\task11.pdb
+C:\Users\Pragati\Desktop\.net folder\task11\obj\Debug\task11.exe.config

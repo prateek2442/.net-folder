@@ -1,0 +1,8 @@
+C:\Users\Pragati\Desktop\.net folder\project5\bin\Debug\project5.exe.config
+C:\Users\Pragati\Desktop\.net folder\project5\bin\Debug\project5.exe
+C:\Users\Pragati\Desktop\.net folder\project5\bin\Debug\project5.pdb
+C:\Users\Pragati\Desktop\.net folder\project5\obj\Debug\project5.csproj.AssemblyReference.cache
+C:\Users\Pragati\Desktop\.net folder\project5\obj\Debug\project5.csproj.CoreCompileInputs.cache
+C:\Users\Pragati\Desktop\.net folder\project5\obj\Debug\project5.exe
+C:\Users\Pragati\Desktop\.net folder\project5\obj\Debug\project5.pdb
+C:\Users\Pragati\Desktop\.net folder\project5\obj\Debug\project5.exe.config

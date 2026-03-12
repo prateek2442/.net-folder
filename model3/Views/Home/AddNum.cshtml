@@ -1,0 +1,23 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddNum</title>
+</head>
+<body>
+    <div> 
+        @ViewBag.Result
+        <form action="/Home/AddNum" method="post">
+            <input type="number"  placeholder="enter the first number" name="tnum1"/> <br />
+            <input type="number" placeholder="enter the second number" name="tnum2" /> <br />
+            <input type="submit" value="Addition" />
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Common_Layout</title>
+    <link href="~/content/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/content/bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <div>
+        <div class="container-fluid">
+            @*  header section start *@
+            <div class="row">
+                <div class="col-sm-12 bg-success text-center text-light">
+                    this is header section
+                </div>
+            </div>
+            @*  header section end *@
+
+            @* navigation section start *@
+            <div class="row">
+                <div class="col-sm-12 bg-warning h1 bg-danger text-light">
+                    <a href="/home/index">Index </a> <br />
+                    <a href="/home/Register">Register </a> <br />
+                    <a href="/home/Service">Services </a> <br />
+                    <a href="/home/About">About </a>
+                </div>
+            </div>
+            @* navigation section end *@
+
+            @* main section start *@
+            <div class="row" style=" min-height: 500px; background-color: antiquewhite; ">
+                <div class="col-sm-12">
+                    @RenderBody()
+                </div>
+            </div>
+            @* main section end*@
+
+            @* footer section start *@
+            <div class="row">
+                <div class="col-sm-12 bg-dark text-light h1 text-center">
+                    footer section
+                </div>
+            </div>
+            @* footer section end *@
+        </div>
+    </div>
+</body>
+</html>

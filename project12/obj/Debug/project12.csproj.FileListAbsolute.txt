@@ -1,0 +1,8 @@
+C:\Users\Pragati\Desktop\.net folder\project12\bin\Debug\project12.exe.config
+C:\Users\Pragati\Desktop\.net folder\project12\bin\Debug\project12.exe
+C:\Users\Pragati\Desktop\.net folder\project12\bin\Debug\project12.pdb
+C:\Users\Pragati\Desktop\.net folder\project12\obj\Debug\project12.csproj.AssemblyReference.cache
+C:\Users\Pragati\Desktop\.net folder\project12\obj\Debug\project12.csproj.CoreCompileInputs.cache
+C:\Users\Pragati\Desktop\.net folder\project12\obj\Debug\project12.exe
+C:\Users\Pragati\Desktop\.net folder\project12\obj\Debug\project12.pdb
+C:\Users\Pragati\Desktop\.net folder\project12\obj\Debug\project12.exe.config

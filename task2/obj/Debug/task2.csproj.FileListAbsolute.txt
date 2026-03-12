@@ -1,0 +1,7 @@
+C:\Users\Pragati\Desktop\.net folder\task2\bin\Debug\task2.exe.config
+C:\Users\Pragati\Desktop\.net folder\task2\bin\Debug\task2.exe
+C:\Users\Pragati\Desktop\.net folder\task2\bin\Debug\task2.pdb
+C:\Users\Pragati\Desktop\.net folder\task2\obj\Debug\task2.csproj.AssemblyReference.cache
+C:\Users\Pragati\Desktop\.net folder\task2\obj\Debug\task2.csproj.CoreCompileInputs.cache
+C:\Users\Pragati\Desktop\.net folder\task2\obj\Debug\task2.exe
+C:\Users\Pragati\Desktop\.net folder\task2\obj\Debug\task2.pdb

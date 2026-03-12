@@ -1,0 +1,7 @@
+C:\Users\Pragati\Desktop\.net folder\task9\bin\Debug\task9.exe.config
+C:\Users\Pragati\Desktop\.net folder\task9\bin\Debug\task9.exe
+C:\Users\Pragati\Desktop\.net folder\task9\bin\Debug\task9.pdb
+C:\Users\Pragati\Desktop\.net folder\task9\obj\Debug\task9.csproj.AssemblyReference.cache
+C:\Users\Pragati\Desktop\.net folder\task9\obj\Debug\task9.csproj.CoreCompileInputs.cache
+C:\Users\Pragati\Desktop\.net folder\task9\obj\Debug\task9.exe
+C:\Users\Pragati\Desktop\.net folder\task9\obj\Debug\task9.pdb

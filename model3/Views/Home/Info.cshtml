@@ -1,0 +1,25 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Info</title>
+</head>
+<body>
+    <div> 
+        <form action="/Home/info" method="post">
+            <input type="text" placeholder="enter your name" name="uName" /> <br />
+            <input type="number" placeholder="enter you age" name="uAge" /> <br />
+            <input type="number" placeholder="enter your Rollno" name="uRollno" /><br />
+            <input type="email" placeholder="example@gmail.com" name="uEmail" /><br />
+            <input type="submit" value="submit"/>
+        </form>
+        @ViewBag.Result
+    </div>
+</body>
+</html>
