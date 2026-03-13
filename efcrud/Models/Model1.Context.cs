@@ -13,10 +13,10 @@ namespace efcrud.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class smsdbEntities : DbContext
+    public partial class smsdbEntities1 : DbContext
     {
-        public smsdbEntities()
-            : base("name=smsdbEntities")
+        public smsdbEntities1()
+            : base("name=smsdbEntities1")
         {
         }
     

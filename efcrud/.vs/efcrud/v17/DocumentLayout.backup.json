@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Pragati\\Desktop\\.net folder\\efcrud\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A85D6869-2C24-4AC7-924B-6B2E784E02BE}|efcrud.csproj|c:\\users\\pragati\\desktop\\.net folder\\efcrud\\views\\home\\managestudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A85D6869-2C24-4AC7-924B-6B2E784E02BE}|efcrud.csproj|solutionrelative:views\\home\\managestudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A85D6869-2C24-4AC7-924B-6B2E784E02BE}|efcrud.csproj|c:\\users\\pragati\\desktop\\.net folder\\efcrud\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A85D6869-2C24-4AC7-924B-6B2E784E02BE}|efcrud.csproj|solutionrelative:views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A85D6869-2C24-4AC7-924B-6B2E784E02BE}|efcrud.csproj|c:\\users\\pragati\\desktop\\.net folder\\efcrud\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A85D6869-2C24-4AC7-924B-6B2E784E02BE}|efcrud.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A85D6869-2C24-4AC7-924B-6B2E784E02BE}|efcrud.csproj|c:\\users\\pragati\\desktop\\.net folder\\efcrud\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A85D6869-2C24-4AC7-924B-6B2E784E02BE}|efcrud.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{A85D6869-2C24-4AC7-924B-6B2E784E02BE}|efcrud.csproj|C:\\Users\\Pragati\\Desktop\\.net folder\\efcrud\\views\\home\\managestudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A85D6869-2C24-4AC7-924B-6B2E784E02BE}|efcrud.csproj|solutionrelative:views\\home\\managestudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A85D6869-2C24-4AC7-924B-6B2E784E02BE}|efcrud.csproj|c:\\users\\pragati\\desktop\\.net folder\\efcrud\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{A85D6869-2C24-4AC7-924B-6B2E784E02BE}|efcrud.csproj|solutionrelative:models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+      "AbsoluteMoniker": "D:0:0:{A85D6869-2C24-4AC7-924B-6B2E784E02BE}|efcrud.csproj|c:\\users\\pragati\\desktop\\.net folder\\efcrud\\views\\home\\updatestudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A85D6869-2C24-4AC7-924B-6B2E784E02BE}|efcrud.csproj|solutionrelative:views\\home\\updatestudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A85D6869-2C24-4AC7-924B-6B2E784E02BE}|efcrud.csproj|C:\\Users\\Pragati\\Desktop\\.net folder\\efcrud\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A85D6869-2C24-4AC7-924B-6B2E784E02BE}|efcrud.csproj|solutionrelative:views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A85D6869-2C24-4AC7-924B-6B2E784E02BE}|efcrud.csproj|c:\\users\\pragati\\desktop\\.net folder\\efcrud\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A85D6869-2C24-4AC7-924B-6B2E784E02BE}|efcrud.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A85D6869-2C24-4AC7-924B-6B2E784E02BE}|efcrud.csproj|c:\\users\\pragati\\desktop\\.net folder\\efcrud\\views\\home\\deletestudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A85D6869-2C24-4AC7-924B-6B2E784E02BE}|efcrud.csproj|solutionrelative:views\\home\\deletestudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A85D6869-2C24-4AC7-924B-6B2E784E02BE}|efcrud.csproj|C:\\Users\\Pragati\\Desktop\\.net folder\\efcrud\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A85D6869-2C24-4AC7-924B-6B2E784E02BE}|efcrud.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,75 +38,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "UpdateStudent.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pragati\\Desktop\\.net folder\\efcrud\\Views\\Home\\UpdateStudent.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\UpdateStudent.cshtml",
+              "ToolTip": "C:\\Users\\Pragati\\Desktop\\.net folder\\efcrud\\Views\\Home\\UpdateStudent.cshtml",
+              "RelativeToolTip": "Views\\Home\\UpdateStudent.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T08:24:39.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ManageStudent.cshtml",
               "DocumentMoniker": "C:\\Users\\Pragati\\Desktop\\.net folder\\efcrud\\Views\\Home\\ManageStudent.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\ManageStudent.cshtml",
               "ToolTip": "C:\\Users\\Pragati\\Desktop\\.net folder\\efcrud\\Views\\Home\\ManageStudent.cshtml",
               "RelativeToolTip": "Views\\Home\\ManageStudent.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACgAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACkAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-13T06:38:39.601Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pragati\\Desktop\\.net folder\\efcrud\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Pragati\\Desktop\\.net folder\\efcrud\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-13T05:18:13.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\Pragati\\Desktop\\.net folder\\efcrud\\Views\\Home\\Register.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Register.cshtml",
               "ToolTip": "C:\\Users\\Pragati\\Desktop\\.net folder\\efcrud\\Views\\Home\\Register.cshtml",
               "RelativeToolTip": "Views\\Home\\Register.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAIwB0AAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-13T04:31:26.954Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Pragati\\Desktop\\.net folder\\efcrud\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Pragati\\Desktop\\.net folder\\efcrud\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAADwvzoAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAwwF8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-13T04:29:49.108Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Model1.edmx [Diagram1]",
-              "DocumentMoniker": "C:\\Users\\Pragati\\Desktop\\.net folder\\efcrud\\Models\\Model1.edmx",
-              "RelativeDocumentMoniker": "Models\\Model1.edmx",
-              "ToolTip": "C:\\Users\\Pragati\\Desktop\\.net folder\\efcrud\\Models\\Model1.edmx [Diagram1]",
-              "RelativeToolTip": "Models\\Model1.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2026-03-13T04:21:22.127Z",
-              "EditorCaption": " [Diagram1]"
+              "DocumentIndex": 5,
+              "Title": "DeleteStudent.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pragati\\Desktop\\.net folder\\efcrud\\Views\\Home\\DeleteStudent.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\DeleteStudent.cshtml",
+              "ToolTip": "C:\\Users\\Pragati\\Desktop\\.net folder\\efcrud\\Views\\Home\\DeleteStudent.cshtml",
+              "RelativeToolTip": "Views\\Home\\DeleteStudent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T08:24:59.056Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pragati\\Desktop\\.net folder\\efcrud\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Pragati\\Desktop\\.net folder\\efcrud\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T09:34:21.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\Pragati\\Desktop\\.net folder\\efcrud\\Web.config",
               "RelativeDocumentMoniker": "Web.config",

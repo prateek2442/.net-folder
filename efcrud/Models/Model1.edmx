@@ -12,8 +12,8 @@
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Name" Type="varchar" MaxLength="200" />
           <Property Name="Age" Type="int" />
-          <Property Name="Email" Type="varchar" MaxLength="20" />
-          <Property Name="MobNo" Type="varchar" MaxLength="50" />
+          <Property Name="Email" Type="varchar" MaxLength="100" />
+          <Property Name="MobNo" Type="varchar" MaxLength="20" />
         </EntityType>
         <EntityContainer Name="smsdbModelStoreContainer">
           <EntitySet Name="stdmaster" EntityType="Self.stdmaster" Schema="dbo" store:Type="Tables" />
@@ -30,10 +30,10 @@
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Name" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
           <Property Name="Age" Type="Int32" />
-          <Property Name="Email" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
-          <Property Name="MobNo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="MobNo" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
         </EntityType>
-        <EntityContainer Name="smsdbEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="smsdbEntities1" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="stdmasters" EntityType="Self.stdmaster" />
         </EntityContainer>
       </Schema>
@@ -41,7 +41,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="smsdbModelStoreContainer" CdmEntityContainer="smsdbEntities">
+        <EntityContainerMapping StorageEntityContainer="smsdbModelStoreContainer" CdmEntityContainer="smsdbEntities1">
           <EntitySetMapping Name="stdmasters">
             <EntityTypeMapping TypeName="smsdbModel.stdmaster">
               <MappingFragment StoreEntitySet="stdmaster">

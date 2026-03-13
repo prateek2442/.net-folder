@@ -18,6 +18,8 @@
 <body>
     <div style="display:flex; justify-content: center; flex-direction: column;">
         <h1 class="bg-primary text-center p-3">Manage Student</h1>
+        <p class=" "></p>
+        @TempData["Message"]
         <table class="table table-striped">
             <tr>
                 <th>S.no.</th>
@@ -36,8 +38,8 @@
                             <td>@sm.Age</td>
                             <td>@sm.Email</td>
                             <td>@sm.MobNo</td>
-                            <td><a href="/Home/UpdateStudent">Update</a></td>
-                            <td><a href="/Home/DeleteStudent">Delete</a></td>
+                            <td><a href="/Home/UpdateStudent?Id=@sm.Id">Update</a></td>
+                            <td><a href="/Home/DeleteStudent?Id=@sm.Id">Delete</a></td>
                         </tr>
                     no++;
                 }

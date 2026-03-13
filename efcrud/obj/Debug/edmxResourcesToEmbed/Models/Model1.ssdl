@@ -7,8 +7,8 @@
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Name" Type="varchar" MaxLength="200" />
     <Property Name="Age" Type="int" />
-    <Property Name="Email" Type="varchar" MaxLength="20" />
-    <Property Name="MobNo" Type="varchar" MaxLength="50" />
+    <Property Name="Email" Type="varchar" MaxLength="100" />
+    <Property Name="MobNo" Type="varchar" MaxLength="20" />
   </EntityType>
   <EntityContainer Name="smsdbModelStoreContainer">
     <EntitySet Name="stdmaster" EntityType="Self.stdmaster" Schema="dbo" store:Type="Tables" />

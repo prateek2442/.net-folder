@@ -11,7 +11,7 @@ namespace efcrud.Controllers
     {
         // GET: Home
 
-        smsdbEntities db = new smsdbEntities();
+         smsdbEntities1 db = new smsdbEntities1();
         public ActionResult Index()
         {
             return View();
@@ -51,14 +51,70 @@ namespace efcrud.Controllers
 
         }
 
-        public ActionResult UpdateStudent()
+        [HttpGet]
+
+        public ActionResult UpdateStudent(int Id)
         {
-            return View();
+
+            stdmaster st = db.stdmasters.Find(Id);
+
+            return View(st);
         }
 
-        public ActionResult DeleteStudent()
+        [HttpPost]
+
+        public ActionResult UpdateStudent(stdmaster s)
         {
-            return View();
+            string msg = "";
+            try
+            {
+                stdmaster stdb = db.stdmasters.SingleOrDefault(x => x.Id == s.Id);
+                if (stdb != null)
+                {
+                    stdb.Name = s.Name;
+                    stdb.Age = s.Age;
+                    stdb.Email = s.Email;
+                    stdb.MobNo = s.MobNo;
+                    db.Entry(stdb); 
+                    db.SaveChanges();
+                    msg = "Record updated successfully";
+                }
+                else
+                {
+                    msg = "Record not found";
+                }
+            }
+            catch
+            {
+                msg = "error!";
+            }
+
+            TempData["Message"] = msg;
+            return RedirectToAction("ManageStudent");
+        }
+
+
+        public ActionResult DeleteStudent( int Id)
+        {
+            string msg = "";
+            try
+            {
+                stdmaster dl = db.stdmasters.Find(Id);
+                if (dl != null) 
+                {
+                    db.stdmasters.Remove(dl);
+                    db.SaveChanges();
+                    msg = "deleted successfully";
+                }
+            }
+
+            catch
+            {
+                msg = "error!";
+            }
+
+            TempData["Message"] = msg;
+            return RedirectToAction("ManageStudent");
         }
     }
 }
