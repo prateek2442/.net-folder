@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Pragati\\Desktop\\.net folder\\WebApplication1\\",
+  "WorkspaceRootPath": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D725CA31-5DB3-42F9-8F87-D0D5420A81B6}|WebApplication1.csproj|c:\\users\\pragati\\desktop\\.net folder\\webapplication1\\views\\web\\_web_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D725CA31-5DB3-42F9-8F87-D0D5420A81B6}|WebApplication1.csproj|c:\\users\\dev\\desktop\\.net workshop folder mca\\.net-folder\\webapplication1\\views\\web\\_web_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D725CA31-5DB3-42F9-8F87-D0D5420A81B6}|WebApplication1.csproj|solutionrelative:views\\web\\_web_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D725CA31-5DB3-42F9-8F87-D0D5420A81B6}|WebApplication1.csproj|c:\\users\\pragati\\desktop\\.net folder\\webapplication1\\controllers\\webcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D725CA31-5DB3-42F9-8F87-D0D5420A81B6}|WebApplication1.csproj|C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\WebApplication1\\controllers\\webcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D725CA31-5DB3-42F9-8F87-D0D5420A81B6}|WebApplication1.csproj|solutionrelative:controllers\\webcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D725CA31-5DB3-42F9-8F87-D0D5420A81B6}|WebApplication1.csproj|C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\WebApplication1\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D725CA31-5DB3-42F9-8F87-D0D5420A81B6}|WebApplication1.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,17 +22,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\WebApplication1\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\WebApplication1\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T14:11:13.345Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "_Web_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pragati\\Desktop\\.net folder\\WebApplication1\\Views\\Web\\_Web_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\WebApplication1\\Views\\Web\\_Web_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Web\\_Web_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Pragati\\Desktop\\.net folder\\WebApplication1\\Views\\Web\\_Web_Layout.cshtml",
-              "RelativeToolTip": "Views\\Web\\_Web_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\WebApplication1\\Views\\Web\\_Web_Layout.cshtml*",
+              "RelativeToolTip": "Views\\Web\\_Web_Layout.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-12T14:09:58.756Z",
               "EditorCaption": ""
@@ -37,11 +53,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "WebController.cs",
-              "DocumentMoniker": "C:\\Users\\Pragati\\Desktop\\.net folder\\WebApplication1\\Controllers\\WebController.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\WebApplication1\\Controllers\\WebController.cs",
               "RelativeDocumentMoniker": "Controllers\\WebController.cs",
-              "ToolTip": "C:\\Users\\Pragati\\Desktop\\.net folder\\WebApplication1\\Controllers\\WebController.cs",
+              "ToolTip": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\WebApplication1\\Controllers\\WebController.cs",
               "RelativeToolTip": "Controllers\\WebController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-12T13:58:19.261Z",
               "EditorCaption": ""
