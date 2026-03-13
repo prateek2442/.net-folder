@@ -1,0 +1,154 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_General_Layout</title>
+    <link href="~/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+        #Enquiry{
+            position:fixed;
+            transform:rotate(90deg);
+            left:-22px;
+        }
+    </style>
+ 
+</head>
+<body>
+    <div>
+
+        @*header section start*@
+        <div>
+            <div style=" background-color: darkred; min-height: 20px; color: white; display: flex; justify-content: space-around;" class="container-fluid ">
+                <div><i class="bi bi-telephone-forward-fill">+917846836383</i></div>
+                <div><i class="bi bi-envelope-open-fill">Campusfix@gmail.com</i></div>
+            </div>
+            <div class="row bg-dark text-light" style="height:120px;">
+                <div class="col-md-4 "><img src="~/images/logo.png" style="height:120px; width:380px;"/></div>
+                <div class="col-md-8"><h1 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; padding-top:30px; text-align:center;">Campus Facilty Complaint Redressal</h1></div>
+            </div>
+            <div>
+                <nav class="navbar navbar-expand-lg bg-info-subtle">
+                    <div class="container-fluid">
+                        
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-4 mb-lg-0 gap-4">
+
+                                <li class="nav-item me-3 w">
+                                    <a class="nav-link active fs-5" style="font-family: 'Poppins', sans-serif;" aria-current="page" href="/Home/Home">Home</a>
+                                </li>
+
+                                <li class="nav-item me-3">
+                                    <a class="nav-link active fs-5" style="font-family: 'Poppins', sans-serif;" href="#">Register Complaint</a>
+                                </li>
+
+                                <li class="nav-item me-3">
+                                    <a class="nav-link active fs-5" href="#">AboutUs</a>
+                                </li>
+
+                                <li class="nav-item me-3">
+                                    <a class="nav-link active fs-5" href="/Home/ContactUs">ContactUs</a>
+                                </li>
+
+                            </ul>
+                            <a href="#" class="btn btn-outline-dark border-2"
+                               ><i class="bi bi-box-arrow-in-right"></i>Admin Login</a>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        @*header section end*@
+
+        @*main section starts*@
+        @RenderBody()
+            <div style="height:700px" class="container-fluid">
+
+            </div>
+        @*main section end*@
+
+        @*footer section starts*@
+    <div class="container-fluid bg-black text-light d-flex">
+        <div style="height:200px; margin-top:50px;" class="container-fluid bg-black text-light d-flex flex-row justify-content-around  ">
+            <div>
+                <h4>AboutUs</h4><br />
+                <p>Help us make the campus environment better</p>
+                <p>We are here to help you.</p>
+
+            </div>
+            <div>
+                <h5>Social</h5><br />
+                <p><a href="#"><i class="bi bi-twitter-x"></i>Twitter</a></p>
+                <p><a href="#"><i class="bi bi-facebook"></i>Facebook</a></p>
+                <p><a href="#"><i class="bi bi-instagram"></i>Instagram</a></p>
+                <p><a href="#"><i class="bi bi-youtube"></i>Youtube</a></p>
+                
+                
+                
+                
+            </div>
+            <div>
+                <h5>Feedback</h5><br />
+            </div>
+            <hr />
+        </div>
+
+        
+    </div>
+
+        @*footer section ends*@
+
+        @*start modal*@
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="Enquiry">
+            Enquiry
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">complaint Enquiry</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    
+                    <div class="modal-body">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="FacilityType" placeholder="FacilityType">
+                            <label for="FacilityType">e.g., "Electrical", "Plumbing", "Cleaning".</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="Location" placeholder="Location">
+                            <label for="Location">Room Number or Lab Name (e.g., "Lab 1")</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="description" placeholder="Description of the problem ">
+                            <label for="description">Description of the problem</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="date" class="form-control" id="reporDate" placeholder="ReportDate ">
+                            <label for="reporDate">When the complaint was filed</label>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Send Enquiry</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @*end modal*@
+    </div>
+</body>
+</html>
