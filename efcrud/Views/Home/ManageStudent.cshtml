@@ -1,0 +1,51 @@
+﻿
+@{
+    Layout = null;
+}
+
+@using efcrud.Models
+@model List<stdmaster>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ManageStudent</title>
+    <link href="~/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div style="display:flex; justify-content: center; flex-direction: column;">
+        <h1 class="bg-primary text-center p-3">Manage Student</h1>
+        <table class="table table-striped">
+            <tr>
+                <th>S.no.</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>EmailID</th>
+                <th>MobileNumber</th>
+            </tr>
+            @{ 
+                int no = 1;
+                foreach (stdmaster sm in Model)
+                {
+                        <tr>
+                            <td>@no</td>
+                            <td>@sm.Name</td>
+                            <td>@sm.Age</td>
+                            <td>@sm.Email</td>
+                            <td>@sm.MobNo</td>
+                            <td><a href="/Home/UpdateStudent">Update</a></td>
+                            <td><a href="/Home/DeleteStudent">Delete</a></td>
+                        </tr>
+                    no++;
+                }
+
+            }
+
+
+        </table>
+    </div>
+</body>
+</html>
