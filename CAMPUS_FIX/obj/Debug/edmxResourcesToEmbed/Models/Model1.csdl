@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ComplaintdbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Complaint_Master">
+    <Key>
+      <PropertyRef Name="ComplaintId" />
+    </Key>
+    <Property Name="ComplaintId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FacilityType" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Location" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="IssueDetails" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Status" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="ReportDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Enquiry_Master">
+    <Key>
+      <PropertyRef Name="EnqId" />
+    </Key>
+    <Property Name="EnqId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="MobileNo" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Subject" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="Message" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="EnquiryDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="login_Master">
+    <Key>
+      <PropertyRef Name="AdminId" />
+    </Key>
+    <Property Name="AdminId" Type="String" MaxLength="400" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Notification_Master">
+    <Key>
+      <PropertyRef Name="NotiId" />
+    </Key>
+    <Property Name="NotiId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NotiMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="AddedOn" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityContainer Name="ComplaintdbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Complaint_Master" EntityType="Self.Complaint_Master" />
+    <EntitySet Name="Enquiry_Master" EntityType="Self.Enquiry_Master" />
+    <EntitySet Name="login_Master" EntityType="Self.login_Master" />
+    <EntitySet Name="Notification_Master" EntityType="Self.Notification_Master" />
+  </EntityContainer>
+</Schema>

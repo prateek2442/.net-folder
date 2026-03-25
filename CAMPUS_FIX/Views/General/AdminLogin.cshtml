@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "AdminLogin";
+    Layout = "~/Views/shared/General_Layout.cshtml";
+}
+}
+
+<div class="col-sm-4"></div>
+<div class="col-sm-4">
+    <div class="card text-center p-4 shadow m-4">
+        <h3><i class="bi bi-person-fill"></i>Admin Login</h3>
+        <form action="/General/AdminLogin" method="post">
+            <div class="form-floating mt-3">
+                <input type="email" placeholder="Email / AdminID" class="form-control" id="FloatingEmail" name="AdminId" />
+                <label for="FloatinEmail"><i class="bi bi-envelope"></i> Email/AdminId</label>
+            </div>
+
+            <div class="form-floating mt-3">
+                <input type="password" placeholder="Password" class="form-control" id="FloatingEmail" name="Password" />
+                <label for="FloatinEmail"><i class="bi bi-lock"></i> Password</label>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3 col-6">Login</button>
+        </form>
+        
+        
+        <P>@ViewBag.message</P>
+
+        <p class="mt-4"> Are you not Admin? <a href="/general/Index" class="text-decoration-none"> Go to HomePage </a></p>
+    </div>
+
+</div>
+

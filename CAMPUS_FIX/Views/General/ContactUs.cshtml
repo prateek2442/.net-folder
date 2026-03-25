@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewBag.Title = "ContactUs";
+    Layout = "~/Views/shared/General_Layout.cshtml";
+}
+
+<div style="display: flex; justify-content: center; background-color:antiquewhite; flex-direction:row; ">
+    <div style="align-items: center; border: solid; border-radius: 10px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); padding:50px; margin:50px; background-color:cadetblue;">
+        <h3 class="text-center">Contact us</h3><hr />
+        <form class="text-center">
+            <!--Name-->
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" name="Name" id="floatingName" placeholder="Name">
+                <label for="floatingName"><i class="bi bi-person-fill"></i> Name</label>
+            </div>
+
+            <!--Email-->
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" name="Email" id="floatingEmail" placeholder="Email">
+                <label for="floatingEmail"><i class="bi bi-envelope-at-fill"></i> Email</label>
+            </div>
+
+            <!--Mobile Number-->
+            <div class="form-floating mb-3">
+                <input type="number" class="form-control" id="floatingNumebr" name="MobileNo" placeholder="Mobile Number">
+                <label for="floatingEmail"><i class="bi bi-telephone-forward-fill"></i> Mobile Number</label>
+            </div>
+
+            <!--Subject-->
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingSubject" name="Subject" placeholder="Subject">
+                <label for="floatingSubject"><i class="bi bi-chat-text"></i> Subject</label>
+            </div>
+
+
+            <input type="submit" value="Send details" class="border-1 bg-danger rounded-2 p-2" />
+            <hr />
+            <p>Send your details.We will reach you as soon as possible.</p>
+        </form>
+    </div>
+    <div class="p-4" style="margin-top:100px;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.4386175525683!2d82.91803917359847!3d25.255826529326907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e32d8078a2c2f%3A0xa6813f724988d305!2sSchool%20of%20Management%20Sciences-%20SMS%20Varanasi!5e0!3m2!1sen!2sin!4v1773509923714!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+

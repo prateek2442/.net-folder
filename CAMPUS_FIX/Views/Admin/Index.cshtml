@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/shared/Admin_Layout.cshtml";
+}
+
+<div class="container py-5">
+    <div class="row gap-5">
+        <!--start card-->
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Complaint management</h5>
+                <p class="card-text text-center">
+                    <!--icon-->
+                    <i class="bi bi-house-fill fs-1"></i>
+                </p>
+                <p class="text-end">
+                    <a href="/Admin/ManageComplaint" class="btn btn-primary">Go</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Enquiry management</h5>
+                <p class="card-text text-center">
+                    <!--icon-->
+                    <i class="bi bi-person-fill-check fs-1"></i>
+                </p>
+                <p class="text-end">
+                    <a href="/Admin/ManageEnquiry" class="btn btn-primary">Go</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Notification</h5>
+                <p class="card-text text-center">
+                    <!--icon-->
+                    <i class="bi bi-bell-fill fs-1"></i>
+                </p>
+                <p class="text-end">
+                    <a href="/Admin/Notification" class="btn btn-primary">Go</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
