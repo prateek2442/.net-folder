@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewBag.Title = "ReportComplaint";
+    Layout = "~/Views/shared/General_Layout.cshtml";
+}
+
+
+
+<div style="display: flex; justify-content: center; background-color:antiquewhite; flex-direction:row; ">
+    <p>@TempData["message"]</p>
+    <div class="p-4">
+        <h3>Register Your Complaint</h3>
+        <p>Facing an issue on campus? Submit your complaint here quickly and easily.</p>
+        <h3>Help Us Improve Campus Facilities</h3>
+        <p>Report problems related to classrooms, hostels, washrooms, electricity, water supply, internet, cleanliness, or any other campus facility.</p>
+        <h3>Your Voice Matters</h3>
+        <p>We are committed to resolving student concerns efficiently and creating a better campus environment for everyone.</p>
+        <h3>Fill in the Details </h3>
+        <p>Please provide accurate information about the issue, location, and description so our team can take prompt action.</p>
+    </div>
+    <div style="align-items: center; border: solid; border-radius: 10px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); padding:50px; margin:50px; width: 500px; background-color: cadetblue;">
+        <h3 class="text-center">Register Complain</h3><hr />
+        <form class="text-center" action="/General/ReportComplaint" method="post">
+            <!--FACILITY-->
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" name="FacilityType" id="floatingName" placeholder="Name">
+                <label for="floatingName"><i class="bi bi-person-fill"></i>FACILITY</label>
+            </div>
+
+            <!--LOCATION-->
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" name="location" id="floatingName" placeholder="Name">
+                <label for="floatingName"><i class="bi bi-person-fill"></i> LOCATION</label>
+            </div>
+
+            <!--ISSUE DETAILS-->
+            <div class="form-floating mb-3">
+                <textarea type="number" class="form-control" id="floatingMessage" name="IssueDetails" placeholder="Message"></textarea>
+                <label for="floatingMessage"><i class="bi bi-chat-dots-fill"></i> ISSUE DETAILS</label>
+            </div>
+            <input type="submit" value="Register Complain" class="border-1 bg-danger rounded-2 p-2" />
+        </form>
+    </div>
+</div>
+

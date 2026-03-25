@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="ComplaintdbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Complaint_Master">
+          <Key>
+            <PropertyRef Name="ComplaintId" />
+          </Key>
+          <Property Name="ComplaintId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FacilityType" Type="varchar" MaxLength="200" />
+          <Property Name="Location" Type="varchar" MaxLength="100" />
+          <Property Name="IssueDetails" Type="varchar(max)" />
+          <Property Name="Status" Type="varchar" MaxLength="30" />
+          <Property Name="ReportDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Enquiry_Master">
+          <Key>
+            <PropertyRef Name="EnqId" />
+          </Key>
+          <Property Name="EnqId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="100" />
+          <Property Name="Email" Type="varchar" MaxLength="200" />
+          <Property Name="MobileNo" Type="varchar" MaxLength="15" />
+          <Property Name="Subject" Type="varchar" MaxLength="300" />
+          <Property Name="Message" Type="varchar(max)" />
+          <Property Name="EnquiryDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="login_Master">
+          <Key>
+            <PropertyRef Name="AdminId" />
+          </Key>
+          <Property Name="AdminId" Type="varchar" MaxLength="400" Nullable="false" />
+          <Property Name="Password" Type="varchar" MaxLength="300" />
+        </EntityType>
+        <EntityType Name="Notification_Master">
+          <Key>
+            <PropertyRef Name="NotiId" />
+          </Key>
+          <Property Name="NotiId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NotiMessage" Type="varchar(max)" />
+          <Property Name="AddedOn" Type="datetime" />
+        </EntityType>
+        <EntityContainer Name="ComplaintdbModelStoreContainer">
+          <EntitySet Name="Complaint_Master" EntityType="Self.Complaint_Master" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Enquiry_Master" EntityType="Self.Enquiry_Master" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="login_Master" EntityType="Self.login_Master" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Notification_Master" EntityType="Self.Notification_Master" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ComplaintdbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Complaint_Master">
+          <Key>
+            <PropertyRef Name="ComplaintId" />
+          </Key>
+          <Property Name="ComplaintId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FacilityType" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="Location" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="IssueDetails" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Status" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="ReportDate" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="Enquiry_Master">
+          <Key>
+            <PropertyRef Name="EnqId" />
+          </Key>
+          <Property Name="EnqId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Email" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="MobileNo" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="Subject" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+          <Property Name="Message" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="EnquiryDate" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="login_Master">
+          <Key>
+            <PropertyRef Name="AdminId" />
+          </Key>
+          <Property Name="AdminId" Type="String" MaxLength="400" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Password" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Notification_Master">
+          <Key>
+            <PropertyRef Name="NotiId" />
+          </Key>
+          <Property Name="NotiId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NotiMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="AddedOn" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityContainer Name="ComplaintdbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Complaint_Master" EntityType="Self.Complaint_Master" />
+          <EntitySet Name="Enquiry_Master" EntityType="Self.Enquiry_Master" />
+          <EntitySet Name="login_Master" EntityType="Self.login_Master" />
+          <EntitySet Name="Notification_Master" EntityType="Self.Notification_Master" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ComplaintdbModelStoreContainer" CdmEntityContainer="ComplaintdbEntities">
+          <EntitySetMapping Name="Complaint_Master">
+            <EntityTypeMapping TypeName="ComplaintdbModel.Complaint_Master">
+              <MappingFragment StoreEntitySet="Complaint_Master">
+                <ScalarProperty Name="ComplaintId" ColumnName="ComplaintId" />
+                <ScalarProperty Name="FacilityType" ColumnName="FacilityType" />
+                <ScalarProperty Name="Location" ColumnName="Location" />
+                <ScalarProperty Name="IssueDetails" ColumnName="IssueDetails" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="ReportDate" ColumnName="ReportDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Enquiry_Master">
+            <EntityTypeMapping TypeName="ComplaintdbModel.Enquiry_Master">
+              <MappingFragment StoreEntitySet="Enquiry_Master">
+                <ScalarProperty Name="EnqId" ColumnName="EnqId" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="MobileNo" ColumnName="MobileNo" />
+                <ScalarProperty Name="Subject" ColumnName="Subject" />
+                <ScalarProperty Name="Message" ColumnName="Message" />
+                <ScalarProperty Name="EnquiryDate" ColumnName="EnquiryDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="login_Master">
+            <EntityTypeMapping TypeName="ComplaintdbModel.login_Master">
+              <MappingFragment StoreEntitySet="login_Master">
+                <ScalarProperty Name="AdminId" ColumnName="AdminId" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Notification_Master">
+            <EntityTypeMapping TypeName="ComplaintdbModel.Notification_Master">
+              <MappingFragment StoreEntitySet="Notification_Master">
+                <ScalarProperty Name="NotiId" ColumnName="NotiId" />
+                <ScalarProperty Name="NotiMessage" ColumnName="NotiMessage" />
+                <ScalarProperty Name="AddedOn" ColumnName="AddedOn" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ComplaintdbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Complaint_Master">
+    <Key>
+      <PropertyRef Name="ComplaintId" />
+    </Key>
+    <Property Name="ComplaintId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FacilityType" Type="varchar" MaxLength="200" />
+    <Property Name="Location" Type="varchar" MaxLength="100" />
+    <Property Name="IssueDetails" Type="varchar(max)" />
+    <Property Name="Status" Type="varchar" MaxLength="30" />
+    <Property Name="ReportDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Enquiry_Master">
+    <Key>
+      <PropertyRef Name="EnqId" />
+    </Key>
+    <Property Name="EnqId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="100" />
+    <Property Name="Email" Type="varchar" MaxLength="200" />
+    <Property Name="MobileNo" Type="varchar" MaxLength="15" />
+    <Property Name="Subject" Type="varchar" MaxLength="300" />
+    <Property Name="Message" Type="varchar(max)" />
+    <Property Name="EnquiryDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="login_Master">
+    <Key>
+      <PropertyRef Name="AdminId" />
+    </Key>
+    <Property Name="AdminId" Type="varchar" MaxLength="400" Nullable="false" />
+    <Property Name="Password" Type="varchar" MaxLength="300" />
+  </EntityType>
+  <EntityType Name="Notification_Master">
+    <Key>
+      <PropertyRef Name="NotiId" />
+    </Key>
+    <Property Name="NotiId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NotiMessage" Type="varchar(max)" />
+    <Property Name="AddedOn" Type="datetime" />
+  </EntityType>
+  <EntityContainer Name="ComplaintdbModelStoreContainer">
+    <EntitySet Name="Complaint_Master" EntityType="Self.Complaint_Master" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Enquiry_Master" EntityType="Self.Enquiry_Master" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="login_Master" EntityType="Self.login_Master" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Notification_Master" EntityType="Self.Notification_Master" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
