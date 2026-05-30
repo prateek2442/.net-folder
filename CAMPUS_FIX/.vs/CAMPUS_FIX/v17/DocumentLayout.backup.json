@@ -1,37 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Pragati\\Desktop\\.net folder\\CAMPUS_FIX\\",
+  "WorkspaceRootPath": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|C:\\Users\\Pragati\\Desktop\\.net folder\\CAMPUS_FIX\\views\\shared\\general_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|solutionrelative:views\\shared\\general_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|C:\\Users\\Pragati\\Desktop\\.net folder\\CAMPUS_FIX\\controllers\\generalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\controllers\\generalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|solutionrelative:controllers\\generalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|c:\\users\\pragati\\desktop\\.net folder\\campus_fix\\views\\admin\\manageenquiry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\.vs\\CAMPUS_FIX\\config\\applicationhost.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\CAMPUS_FIX\\config\\applicationhost.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|c:\\users\\dev\\desktop\\.net workshop folder mca\\.net-folder\\campus_fix\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|solutionrelative:views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\views\\general\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|solutionrelative:views\\general\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\views\\shared\\general_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|solutionrelative:views\\shared\\general_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\views\\admin\\manageenquiry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|solutionrelative:views\\admin\\manageenquiry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|c:\\users\\pragati\\desktop\\.net folder\\campus_fix\\views\\general\\trackpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\views\\general\\trackpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|solutionrelative:views\\general\\trackpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|c:\\users\\pragati\\desktop\\.net folder\\campus_fix\\views\\admin\\managecomplaint.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\views\\admin\\managecomplaint.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|solutionrelative:views\\admin\\managecomplaint.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|C:\\Users\\Pragati\\Desktop\\.net folder\\CAMPUS_FIX\\views\\admin\\notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\views\\admin\\notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|solutionrelative:views\\admin\\notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|c:\\users\\pragati\\desktop\\.net folder\\campus_fix\\views\\general\\adminlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\views\\general\\adminlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|solutionrelative:views\\general\\adminlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|c:\\users\\pragati\\desktop\\.net folder\\campus_fix\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59F54315-FE1B-4B58-AD87-335A4CA44FE4}|CAMPUS_FIX.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,29 +66,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "General_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pragati\\Desktop\\.net folder\\CAMPUS_FIX\\Views\\shared\\General_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\Views\\shared\\General_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\shared\\General_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Pragati\\Desktop\\.net folder\\CAMPUS_FIX\\Views\\shared\\General_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\Views\\shared\\General_Layout.cshtml",
               "RelativeToolTip": "Views\\shared\\General_Layout.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-14T04:56:30.057Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "GeneralController.cs",
-              "DocumentMoniker": "C:\\Users\\Pragati\\Desktop\\.net folder\\CAMPUS_FIX\\Controllers\\GeneralController.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\Controllers\\GeneralController.cs",
               "RelativeDocumentMoniker": "Controllers\\GeneralController.cs",
-              "ToolTip": "C:\\Users\\Pragati\\Desktop\\.net folder\\CAMPUS_FIX\\Controllers\\GeneralController.cs",
+              "ToolTip": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\Controllers\\GeneralController.cs",
               "RelativeToolTip": "Controllers\\GeneralController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwAQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -74,81 +97,150 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AdminLogin.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pragati\\Desktop\\.net folder\\CAMPUS_FIX\\Views\\General\\AdminLogin.cshtml",
-              "RelativeDocumentMoniker": "Views\\General\\AdminLogin.cshtml",
-              "ToolTip": "C:\\Users\\Pragati\\Desktop\\.net folder\\CAMPUS_FIX\\Views\\General\\AdminLogin.cshtml",
-              "RelativeToolTip": "Views\\General\\AdminLogin.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-15T09:45:01.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\Pragati\\Desktop\\.net folder\\CAMPUS_FIX\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\Pragati\\Desktop\\.net folder\\CAMPUS_FIX\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T09:13:47.351Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ManageEnquiry.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pragati\\Desktop\\.net folder\\CAMPUS_FIX\\Views\\Admin\\ManageEnquiry.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\ManageEnquiry.cshtml",
-              "ToolTip": "C:\\Users\\Pragati\\Desktop\\.net folder\\CAMPUS_FIX\\Views\\Admin\\ManageEnquiry.cshtml",
-              "RelativeToolTip": "Views\\Admin\\ManageEnquiry.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-15T09:13:33.898Z",
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC8AAADrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-03-25T04:44:00.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "applicationhost.config",
+              "DocumentMoniker": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\.vs\\CAMPUS_FIX\\config\\applicationhost.config",
+              "RelativeDocumentMoniker": ".vs\\CAMPUS_FIX\\config\\applicationhost.config",
+              "ToolTip": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\.vs\\CAMPUS_FIX\\config\\applicationhost.config",
+              "RelativeToolTip": ".vs\\CAMPUS_FIX\\config\\applicationhost.config",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAAAKQAAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-03-25T04:23:46.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TrackPage.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pragati\\Desktop\\.net folder\\CAMPUS_FIX\\Views\\General\\TrackPage.cshtml",
-              "RelativeDocumentMoniker": "Views\\General\\TrackPage.cshtml",
-              "ToolTip": "C:\\Users\\Pragati\\Desktop\\.net folder\\CAMPUS_FIX\\Views\\General\\TrackPage.cshtml",
-              "RelativeToolTip": "Views\\General\\TrackPage.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACUAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-15T09:03:14.691Z",
+              "Title": "web.config",
+              "DocumentMoniker": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\Views\\web.config",
+              "RelativeDocumentMoniker": "Views\\web.config",
+              "ToolTip": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\Views\\web.config",
+              "RelativeToolTip": "Views\\web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-03-25T04:18:43.819Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ManageComplaint.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pragati\\Desktop\\.net folder\\CAMPUS_FIX\\Views\\Admin\\ManageComplaint.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\ManageComplaint.cshtml",
-              "ToolTip": "C:\\Users\\Pragati\\Desktop\\.net folder\\CAMPUS_FIX\\Views\\Admin\\ManageComplaint.cshtml",
-              "RelativeToolTip": "Views\\Admin\\ManageComplaint.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\Views\\General\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\General\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\Views\\General\\Index.cshtml",
+              "RelativeToolTip": "Views\\General\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-15T08:51:50.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-25T04:18:25.045Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-25T04:18:16.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T04:18:00.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\Views\\General\\AdminLogin.cshtml",
+              "RelativeDocumentMoniker": "Views\\General\\AdminLogin.cshtml",
+              "ToolTip": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\Views\\General\\AdminLogin.cshtml",
+              "RelativeToolTip": "Views\\General\\AdminLogin.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-15T09:45:01.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T09:13:47.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ManageEnquiry.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\Views\\Admin\\ManageEnquiry.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ManageEnquiry.cshtml",
+              "ToolTip": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\Views\\Admin\\ManageEnquiry.cshtml",
+              "RelativeToolTip": "Views\\Admin\\ManageEnquiry.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-15T09:13:33.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TrackPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\Views\\General\\TrackPage.cshtml",
+              "RelativeDocumentMoniker": "Views\\General\\TrackPage.cshtml",
+              "ToolTip": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\Views\\General\\TrackPage.cshtml",
+              "RelativeToolTip": "Views\\General\\TrackPage.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-15T09:03:14.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ManageComplaint.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\Views\\Admin\\ManageComplaint.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ManageComplaint.cshtml",
+              "ToolTip": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\Views\\Admin\\ManageComplaint.cshtml",
+              "RelativeToolTip": "Views\\Admin\\ManageComplaint.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-15T08:51:50.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Notification.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pragati\\Desktop\\.net folder\\CAMPUS_FIX\\Views\\Admin\\Notification.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\Views\\Admin\\Notification.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\Notification.cshtml",
-              "ToolTip": "C:\\Users\\Pragati\\Desktop\\.net folder\\CAMPUS_FIX\\Views\\Admin\\Notification.cshtml",
+              "ToolTip": "C:\\Users\\Dev\\Desktop\\.net workshop folder MCA\\.net-folder\\CAMPUS_FIX\\Views\\Admin\\Notification.cshtml",
               "RelativeToolTip": "Views\\Admin\\Notification.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-14T11:07:00.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T11:07:00.884Z"
             }
           ]
         }
